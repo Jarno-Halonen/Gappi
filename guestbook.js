@@ -74,6 +74,9 @@ app.get('*', function (req, res) {
 
 //localhost8081
 
-app.listen(8081, function() {
+/* app.listen(8081, function() {
     console.log('Listening port 8081!');
-});
+}); */
+
+app.listen(process.env.PORT || 3000, 
+	() => console.log("Server is running..."));

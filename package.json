@@ -1,11 +1,10 @@
 {
   "name": "gappi",
   "version": "1.0.0",
-  "description": "Fullstack-course project1",
+  "description": "guestbook app",
   "main": "guestbook.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node guestbook.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
