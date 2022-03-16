@@ -2,7 +2,7 @@
   "name": "gappi",
   "version": "1.0.0",
   "description": "guestbook app",
-  "main": "guestbook.js",
+  "main": "/guestbook.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,9 @@
   },
   "author": "Jarno Halonen",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
   "bugs": {
     "url": "https://github.com/Jarno-Halonen/Gappi/issues"
   },
